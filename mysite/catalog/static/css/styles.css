@@ -1,0 +1,162 @@
+/* --------------------- G E N E R A L - O B J E C T S --------------------- */
+
+@import url("fonts/ttf/Montserrat.css");
+
+@-ms-viewport {
+    width: device-width;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    //list-style-type: none;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: #f5a623;
+    text-decoration: none;
+}
+
+h1 {
+    color: #540085;
+    font-family: Montserrat;
+    font-size: 30px;
+    margin: 0;
+}
+
+h2 {
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 24px;
+    margin: 0;
+}
+
+h4 {
+    font-family: Montserrat;
+}
+
+button {
+    background-color: #008CBA;
+    border-radius: 5px;
+    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    padding: 5px 28px;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding: 5px 28px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    text-align: center;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #bd8d52
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+tr:hover {
+    background-color: yellow;
+}
+
+
+
+/* ------------------------- M A I N - W I N D O W ------------------------- */
+
+.welcome_container {
+    margin-top: 180px;
+    margin-left: 50px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.welcome_button {
+    position: relative;
+    top:  50px;
+    width: 200px;
+    height: 50px;
+    border-radius: 22.5px;
+    background-color: #f5a623;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.welcome_button:hover {
+    background-color: #4CAF50; /* Green */
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#welcome_button_a:hover {
+    color: inherit;
+}
+
+/* ------------------------ L E F T - S I D E B A R ------------------------ */
+
+.sidebar-nav {
+    position: relative;
+    width: 20%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-left: -30px;
+    text-align: center;
+    padding: 0;
+    list-style: none;
+    overflow-y: scroll;
+    background: #ffe6e6;
+}
+
+/* ------------------------------- L I S T S ------------------------------- */
+
+.list_header {
+    position: relative;
+    top: 112px;
+    left: 50px;
+    height: 44px;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -1px;
+    color: #000000;
+}

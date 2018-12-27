@@ -1,0 +1,36 @@
+{% load static %}
+
+<body>
+
+    <div class="misc_background" id="account_activation_overlay">
+        <div class="misc_container">
+            <div class="misc_left_rect">
+                <img src="{% static 'images/logo-1.svg' %}" svg class="misc_logo">
+                <div class="misc_title">Account Activation</div>
+                <div class="misc_text">
+                    Please confirm your email address to complete the registration
+                </div>
+            </div>
+
+            <div class="misc_right_rect">
+                <img src="{% static 'images/misc_rectangle.png' %}" png class="misc_image">
+                <a href="#"><img src="{% static 'images/icon-close.svg' %}" svg class="misc_close" id="misc_close_account_activation"></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+
+    $(document).ready(function(){
+
+        $("#account_activation_overlay").css('height','100%');
+
+        $("#misc_close_account_activation").click(function() {
+            $("#account_activation_overlay").css('height','0%');
+        });
+    });
+
+</script>
