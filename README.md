@@ -1,0 +1,2 @@
+# GenericDjangoProject
+Generic Django Project
